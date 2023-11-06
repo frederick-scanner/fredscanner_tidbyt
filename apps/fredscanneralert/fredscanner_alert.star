@@ -1,7 +1,7 @@
 load("http.star", "http")
 load("render.star", "render")
 
-API_URL = "https://www.frederickscanner.com/fredscannerpro/fredscannertweet.json"
+API_URL = "http://www.frederickscanner.com/fredscannerpro/fredscannertweet.json"
 
 def main():
     rep = http.get(API_URL)
